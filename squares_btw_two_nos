@@ -1,0 +1,8 @@
+
+def squares(a, b):
+    
+    lower=math.sqrt(a)
+    higher=math.sqrt(b)
+    n= math.floor(higher)-math.ceil(lower)+1
+    return n
+
